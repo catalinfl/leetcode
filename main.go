@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(algos.LengthOfLastWord("test               123 salut boss"))
+	fmt.Println(algos.DefangIPaddr2("127.0.0.1"))
 }
