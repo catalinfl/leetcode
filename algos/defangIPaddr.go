@@ -1,7 +1,6 @@
 package algos
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -34,7 +33,6 @@ func DefangIPaddr2(address string) string {
 	rep := ""
 
 	for _, s := range address {
-		fmt.Println(s)
 		if string(s) == a {
 			rep += b
 			continue

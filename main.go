@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/catalinfl/leetcode/algos"
 )
 
 func main() {
-	fmt.Println(algos.DefangIPaddr2("127.0.0.1"))
+	var z []int = []int{1, 2, 3, 4, 5}
+	fmt.Println(len(z))
+	z = z[len(z)-1:]
+	fmt.Println(z)
 }
