@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/catalinfl/leetcode/algos"
 )
 
 func main() {
-	var z []int = []int{1, 2, 3, 4, 5}
-	fmt.Println(len(z))
-	z = z[len(z)-1:]
-	fmt.Println(z)
+
+	fmt.Println(algos.Merge([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3))
 }
