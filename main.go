@@ -8,5 +8,5 @@ import (
 
 func main() {
 
-	fmt.Println(algos.Merge([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3))
+	fmt.Println(algos.SortArrayByParity([]int{1, 2, 3, 5, 6}))
 }
