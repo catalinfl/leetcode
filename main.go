@@ -8,5 +8,5 @@ import (
 
 func main() {
 
-	fmt.Println(algos.SortArrayByParity([]int{1, 2, 3, 5, 6}))
+	fmt.Println(algos.ToHex(31))
 }
