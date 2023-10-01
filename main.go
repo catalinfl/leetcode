@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/catalinfl/leetcode/algos"
 )
 
 func main() {
-
-	fmt.Println(algos.ToHex(31))
+	var i = []int{1, 2, 3, 4}
+	fmt.Println(i[len(i)/2])
 }
