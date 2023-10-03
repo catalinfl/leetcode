@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/catalinfl/leetcode/algos"
 )
 
 func main() {
-	var i = []int{1, 2, 3, 4}
-	fmt.Println(i[len(i)/2])
+	algos.SumIndicesWithKSetBits([]int{1, 2, 3, 4, 5}, 3)
 }
