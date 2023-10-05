@@ -1,7 +1,7 @@
 package algos
 
 func majorityElement(nums []int) []int {
-	var mapelement = make(map[int]int)
+	mapelement := make(map[int]int, len(nums))
 	var elements []int
 	var maxToBeWrite = len(nums) / 3
 	for i := 0; i < len(nums); i++ {

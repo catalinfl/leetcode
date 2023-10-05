@@ -17,5 +17,4 @@ func reverseWords(s string) string {
 	}
 
 	return strings.Replace(str, " ", "", 1)
-
 }
