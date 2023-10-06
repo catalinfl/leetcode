@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(algos.Multiply("408", "5"))
+	fmt.Println(algos.CountBits(5))
 }
