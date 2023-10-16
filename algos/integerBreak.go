@@ -7,7 +7,7 @@ func max(a int, b int) int {
 	return b
 }
 
-func integerBreak(n int) int {
+func IntegerBreak(n int) []int {
 	dp := make([]int, n+1)
 	dp[1] = 1
 
@@ -15,6 +15,12 @@ func integerBreak(n int) int {
 		if sum != n {
 			dp[sum] = sum
 		}
-
+		for i := 1; i < n/2; i++ {
+			if sum-i >= 0 {
+				dp[sum] = max(dp[sum], dp[sum-i]*i)
+			}
+		}
 	}
+
+	return dp
 }

@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(algos.CountBits(5))
+	fmt.Println(algos.IntegerBreak(10))
 }
